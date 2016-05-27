@@ -17,6 +17,7 @@
 		3219F92C1CF80BE40081A55E /* CollcetionAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3219F92B1CF80BE40081A55E /* CollcetionAnimationUITests.m */; };
 		3219F93C1CF80CC10081A55E /* GeneralGoodsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3219F93A1CF80CC10081A55E /* GeneralGoodsCell.m */; };
 		3219F93D1CF80CC10081A55E /* GeneralGoodsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3219F93B1CF80CC10081A55E /* GeneralGoodsCell.xib */; };
+		3219F93F1CF810130081A55E /* CollcetionAnimation.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3219F93E1CF810130081A55E /* CollcetionAnimation.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		3219F9391CF80CC10081A55E /* GeneralGoodsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneralGoodsCell.h; sourceTree = "<group>"; };
 		3219F93A1CF80CC10081A55E /* GeneralGoodsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneralGoodsCell.m; sourceTree = "<group>"; };
 		3219F93B1CF80CC10081A55E /* GeneralGoodsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GeneralGoodsCell.xib; sourceTree = "<group>"; };
+		3219F93E1CF810130081A55E /* CollcetionAnimation.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = CollcetionAnimation.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 		3219F9051CF80BE40081A55E /* CollcetionAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				3219F93E1CF810130081A55E /* CollcetionAnimation.gif */,
 				3219F9091CF80BE40081A55E /* AppDelegate.h */,
 				3219F90A1CF80BE40081A55E /* AppDelegate.m */,
 				3219F90C1CF80BE40081A55E /* ViewController.h */,
@@ -251,6 +254,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3219F93F1CF810130081A55E /* CollcetionAnimation.gif in Resources */,
 				3219F9161CF80BE40081A55E /* LaunchScreen.storyboard in Resources */,
 				3219F9131CF80BE40081A55E /* Assets.xcassets in Resources */,
 				3219F9111CF80BE40081A55E /* Main.storyboard in Resources */,
@@ -426,8 +430,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CollcetionAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.51fanxing.CollcetionAnimation;
+				PRODUCT_BUNDLE_IDENTIFIER = com.51fanxing.FXBEST;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -437,8 +442,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CollcetionAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.51fanxing.CollcetionAnimation;
+				PRODUCT_BUNDLE_IDENTIFIER = com.51fanxing.FXBEST;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
