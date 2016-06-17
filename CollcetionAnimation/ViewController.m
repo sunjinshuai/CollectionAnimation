@@ -30,7 +30,6 @@ static NSString * const reuseIdentifier = @"GeneralGoodsCell";
     self.title = @"SUNCollectionViewAnimation";
     
     [self.collectionView registerNib:[UINib nibWithNibName:@"GeneralGoodsCell" bundle:nil] forCellWithReuseIdentifier:reuseIdentifier];
-    // Do any additional setup after loading the view, typically from a nib.
 }
 
 #pragma mark - Collection View Data Source
