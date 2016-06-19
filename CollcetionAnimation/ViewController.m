@@ -12,6 +12,7 @@
 
 #import "ViewController.h"
 #import "GeneralGoodsCell.h"
+#import "TestViewController.h"
 
 @interface ViewController ()<UICollectionViewDelegate, UICollectionViewDataSource>
 
@@ -63,7 +64,8 @@ static NSString * const reuseIdentifier = @"GeneralGoodsCell";
 
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
 {
-    
+    TestViewController *test = [[TestViewController alloc] init];
+    [self.navigationController pushViewController:test animated:YES];
 }
 
 #pragma mark - setter and getter

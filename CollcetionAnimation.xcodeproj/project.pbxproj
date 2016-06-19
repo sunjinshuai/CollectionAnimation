@@ -18,6 +18,7 @@
 		3219F93C1CF80CC10081A55E /* GeneralGoodsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3219F93A1CF80CC10081A55E /* GeneralGoodsCell.m */; };
 		3219F93D1CF80CC10081A55E /* GeneralGoodsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3219F93B1CF80CC10081A55E /* GeneralGoodsCell.xib */; };
 		3219F93F1CF810130081A55E /* CollcetionAnimation.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3219F93E1CF810130081A55E /* CollcetionAnimation.gif */; };
+		4C57AA0E1D16C784007C6F4F /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C57AA0D1D16C784007C6F4F /* TestViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,8 @@
 		3219F93A1CF80CC10081A55E /* GeneralGoodsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneralGoodsCell.m; sourceTree = "<group>"; };
 		3219F93B1CF80CC10081A55E /* GeneralGoodsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GeneralGoodsCell.xib; sourceTree = "<group>"; };
 		3219F93E1CF810130081A55E /* CollcetionAnimation.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = CollcetionAnimation.gif; sourceTree = "<group>"; };
+		4C57AA0C1D16C784007C6F4F /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		4C57AA0D1D16C784007C6F4F /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +116,8 @@
 				3219F90A1CF80BE40081A55E /* AppDelegate.m */,
 				3219F90C1CF80BE40081A55E /* ViewController.h */,
 				3219F90D1CF80BE40081A55E /* ViewController.m */,
+				4C57AA0C1D16C784007C6F4F /* TestViewController.h */,
+				4C57AA0D1D16C784007C6F4F /* TestViewController.m */,
 				3219F9391CF80CC10081A55E /* GeneralGoodsCell.h */,
 				3219F93A1CF80CC10081A55E /* GeneralGoodsCell.m */,
 				3219F93B1CF80CC10081A55E /* GeneralGoodsCell.xib */,
@@ -287,6 +292,7 @@
 				3219F90B1CF80BE40081A55E /* AppDelegate.m in Sources */,
 				3219F9081CF80BE40081A55E /* main.m in Sources */,
 				3219F93C1CF80CC10081A55E /* GeneralGoodsCell.m in Sources */,
+				4C57AA0E1D16C784007C6F4F /* TestViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
